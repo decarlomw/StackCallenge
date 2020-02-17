@@ -1,5 +1,7 @@
 StackQuestions
+
 Introduction
+
 This application allows users to pull current Stackoverflow questions that have an accepted answer and more than one answer.
 
 Installation
