@@ -15,7 +15,7 @@ class QuestionTableViewCell: UITableViewCell {
     static let ID = "QuestionTableViewCell"
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var questionAsked: UILabel!
-    @IBOutlet weak var stackedTagsView: UIStackView!
     @IBOutlet weak var tagLbl: UILabel!
+    @IBOutlet weak var answerCount: UILabel!
 
 }

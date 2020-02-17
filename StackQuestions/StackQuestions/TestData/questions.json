@@ -1,0 +1,739 @@
+{
+  "items": [
+    {
+      "tags": [
+        "r",
+        "nginx",
+        "shiny"
+      ],
+      "owner": {
+        "reputation": 1300,
+        "user_id": 4228398,
+        "user_type": "registered",
+        "accept_rate": 83,
+        "profile_image": "https://i.stack.imgur.com/qLCBK.jpg?s=128&g=1",
+        "display_name": "Majid Hojati",
+        "link": "https://stackoverflow.com/users/4228398/majid-hojati"
+      },
+      "is_answered": false,
+      "view_count": 1,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703295,
+      "creation_date": 1581703295,
+      "question_id": 60231405,
+      "link": "https://stackoverflow.com/questions/60231405/configure-shiny-server-with-nginx",
+      "title": "configure shiny server with nginx"
+    },
+    {
+      "tags": [
+        "javascript",
+        "datetime"
+      ],
+      "owner": {
+        "reputation": 101,
+        "user_id": 3867030,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/GFUJW.jpg?s=128&g=1",
+        "display_name": "ChrisBurns",
+        "link": "https://stackoverflow.com/users/3867030/chrisburns"
+      },
+      "is_answered": false,
+      "view_count": 37,
+      "answer_count": 2,
+      "score": 4,
+      "last_activity_date": 1581703293,
+      "creation_date": 1581701199,
+      "last_edit_date": 1581701362,
+      "question_id": 60230961,
+      "link": "https://stackoverflow.com/questions/60230961/javascript-tolocalestring-not-honoring-2-digit",
+      "title": "Javascript .toLocaleString() not honoring &#39;2-digit&#39;"
+    },
+    {
+      "tags": [
+        "php",
+        "phpstorm",
+        "xdebug"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12899767,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/-oRPH1xkVvyc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reNOACYzRTaULFlFQfMNUECX8m1AQ/photo.jpg?sz=128",
+        "display_name": "StiofanMac",
+        "link": "https://stackoverflow.com/users/12899767/stiofanmac"
+      },
+      "is_answered": false,
+      "view_count": 20,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1581703292,
+      "creation_date": 1581699773,
+      "last_edit_date": 1581703008,
+      "question_id": 60230674,
+      "link": "https://stackoverflow.com/questions/60230674/cannot-examine-breakpoints-in-phpstorm-with-xdebug",
+      "title": "Cannot examine breakpoints in PhpStorm with Xdebug"
+    },
+    {
+      "tags": [
+        "ios",
+        "swift",
+        "xcode",
+        "segue"
+      ],
+      "owner": {
+        "reputation": 41,
+        "user_id": 3050491,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/69ff0c60ed7563d4f6afc7560fcb1d26?s=128&d=identicon&r=PG&f=1",
+        "display_name": "user3050491",
+        "link": "https://stackoverflow.com/users/3050491/user3050491"
+      },
+      "is_answered": false,
+      "view_count": 15,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1581703291,
+      "creation_date": 1581665672,
+      "question_id": 60221860,
+      "link": "https://stackoverflow.com/questions/60221860/uipageviewcontroller-subviewcontroller-cant-perform-segue-on-viewdidappear",
+      "title": "UIPageViewController subviewcontroller can&#39;t perform segue on viewDidAppear"
+    },
+    {
+      "tags": [
+        "c#",
+        ".net",
+        "c#-to-vb.net"
+      ],
+      "owner": {
+        "reputation": 2356,
+        "user_id": 528016,
+        "user_type": "registered",
+        "accept_rate": 95,
+        "profile_image": "https://www.gravatar.com/avatar/7f6ac807fda11715d0d697afaadff0cb?s=128&d=identicon&r=PG",
+        "display_name": "tpascale",
+        "link": "https://stackoverflow.com/users/528016/tpascale"
+      },
+      "is_answered": true,
+      "view_count": 1735,
+      "accepted_answer_id": 4796838,
+      "answer_count": 2,
+      "score": 7,
+      "last_activity_date": 1581703289,
+      "creation_date": 1295975327,
+      "question_id": 4796613,
+      "link": "https://stackoverflow.com/questions/4796613/c-enumerable-class-compatible-with-vba",
+      "title": "c# enumerable class - compatible with VBA"
+    },
+    {
+      "tags": [
+        "apache-spark"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12899729,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mC1hlakxQIvV5n2N1B7t40gZ3T8HI7SAdV8ERc78g=k-s128",
+        "display_name": "Vinod",
+        "link": "https://stackoverflow.com/users/12899729/vinod"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703286,
+      "creation_date": 1581699610,
+      "last_edit_date": 1581703286,
+      "question_id": 60230639,
+      "link": "https://stackoverflow.com/questions/60230639/spark-2-4-4-with-hive-2-3-6",
+      "title": "Spark 2.4.4 with Hive 2.3.6"
+    },
+    {
+      "tags": [
+        "xamarin",
+        "xamarin.forms",
+        "uwp",
+        "webassembly",
+        "uno-platform"
+      ],
+      "owner": {
+        "reputation": 335,
+        "user_id": 6115044,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://i.stack.imgur.com/DhXy5.png?s=128&g=1",
+        "display_name": "berkb",
+        "link": "https://stackoverflow.com/users/6115044/berkb"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703281,
+      "creation_date": 1581703281,
+      "question_id": 60231401,
+      "link": "https://stackoverflow.com/questions/60231401/how-to-publish-xamarin-forms-projected-wasm-app-to-ftp-correctly",
+      "title": "How to Publish Xamarin.Forms Projected WASM App to FTP Correctly.?"
+    },
+    {
+      "tags": [
+        "sas"
+      ],
+      "owner": {
+        "reputation": 481,
+        "user_id": 1439747,
+        "user_type": "registered",
+        "accept_rate": 79,
+        "profile_image": "https://www.gravatar.com/avatar/bb74f42e0c7b1c687f419309e5dd921c?s=128&d=identicon&r=PG",
+        "display_name": "ssn",
+        "link": "https://stackoverflow.com/users/1439747/ssn"
+      },
+      "is_answered": false,
+      "view_count": 28,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1581703268,
+      "creation_date": 1581606694,
+      "question_id": 60210950,
+      "link": "https://stackoverflow.com/questions/60210950/error-on-conversion-from-nvarchar-to-ascii",
+      "title": "Error on Conversion from NVARCHAR TO ASCII"
+    },
+    {
+      "tags": [
+        "laravel",
+        "eloquent",
+        "laravel-query-builder"
+      ],
+      "owner": {
+        "reputation": 79,
+        "user_id": 12571053,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/39be909ab0fdb7b1b4287cb2e704839f?s=128&d=identicon&r=PG",
+        "display_name": "Oscar",
+        "link": "https://stackoverflow.com/users/12571053/oscar"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703266,
+      "creation_date": 1581703266,
+      "question_id": 60231399,
+      "link": "https://stackoverflow.com/questions/60231399/how-to-search-in-two-columns-simultaneously-using-laravel",
+      "title": "How to search in two columns simultaneously using Laravel?"
+    },
+    {
+      "tags": [
+        "python",
+        "function"
+      ],
+      "owner": {
+        "reputation": 139,
+        "user_id": 10993097,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/GZUs1.png?s=128&g=1",
+        "display_name": "TheRealTengri",
+        "link": "https://stackoverflow.com/users/10993097/therealtengri"
+      },
+      "is_answered": true,
+      "view_count": 18,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1581703265,
+      "creation_date": 1581702877,
+      "question_id": 60231308,
+      "link": "https://stackoverflow.com/questions/60231308/how-can-i-modify-text-that-is-already-printed",
+      "title": "How can I modify text that is already printed?"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "python-requests"
+      ],
+      "owner": {
+        "reputation": 99,
+        "user_id": 8491016,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/ddc8f5db557ad81d38ed4a24f7997002?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Apeal Tiwari",
+        "link": "https://stackoverflow.com/users/8491016/apeal-tiwari"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703264,
+      "creation_date": 1581703264,
+      "question_id": 60231397,
+      "link": "https://stackoverflow.com/questions/60231397/required-request-part-subtitlefile-is-not-present",
+      "title": "Required Request Part &#39;subtitleFile&#39; is not present"
+    },
+    {
+      "tags": [
+        "php",
+        "laravel",
+        "ubuntu",
+        "laravel-5"
+      ],
+      "owner": {
+        "reputation": 977,
+        "user_id": 7761388,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://www.gravatar.com/avatar/cc1748074be57508415c5ef1b96c9d96?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Andreas Sauer",
+        "link": "https://stackoverflow.com/users/7761388/andreas-sauer"
+      },
+      "is_answered": true,
+      "view_count": 95258,
+      "accepted_answer_id": 46058582,
+      "answer_count": 17,
+      "score": 97,
+      "last_activity_date": 1581703263,
+      "creation_date": 1504624827,
+      "question_id": 46058457,
+      "link": "https://stackoverflow.com/questions/46058457/cant-install-laravel-installer-via-composer",
+      "title": "Can&#39;t install laravel installer via composer"
+    },
+    {
+      "tags": [
+        "karate"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12874762,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/694384e164dd471d93742bdb5da1b4b3?s=128&d=identicon&r=PG&f=1",
+        "display_name": "qalinda",
+        "link": "https://stackoverflow.com/users/12874762/qalinda"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703251,
+      "creation_date": 1581703251,
+      "question_id": 60231395,
+      "link": "https://stackoverflow.com/questions/60231395/question-about-why-set-cannot-change-my-json-file-value",
+      "title": "Question about why &quot;Set cannot change my json file value&quot;"
+    },
+    {
+      "tags": [
+        "python",
+        "pygame",
+        "pycharm",
+        "linux-mint"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10981669,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/1b6048f979a58f8b5317a7850da9929c?s=128&d=identicon&r=PG&f=1",
+        "display_name": "tiago",
+        "link": "https://stackoverflow.com/users/10981669/tiago"
+      },
+      "is_answered": false,
+      "view_count": 11,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1581703250,
+      "creation_date": 1581699318,
+      "question_id": 60230571,
+      "link": "https://stackoverflow.com/questions/60230571/i-cant-import-pygame-inside-pycharm",
+      "title": "I can&#39;t import pygame inside pycharm"
+    },
+    {
+      "tags": [
+        "html",
+        "css"
+      ],
+      "owner": {
+        "reputation": 133,
+        "user_id": 8671940,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/7e8abcb8960a5bf7f32db224a4588c49?s=128&d=identicon&r=PG&f=1",
+        "display_name": "user123456789",
+        "link": "https://stackoverflow.com/users/8671940/user123456789"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703248,
+      "creation_date": 1581703248,
+      "question_id": 60231393,
+      "link": "https://stackoverflow.com/questions/60231393/uniform-gap-between-the-columns-css-grid-view",
+      "title": "Uniform gap between the columns - CSS Grid View"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "rubygems"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12899940,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/de0ea0dc14c20f9010554208a2f953d3?s=128&d=identicon&r=PG&f=1",
+        "display_name": "user12899940",
+        "link": "https://stackoverflow.com/users/12899940/user12899940"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703245,
+      "creation_date": 1581703245,
+      "question_id": 60231392,
+      "link": "https://stackoverflow.com/questions/60231392/everytime-i-try-to-run-rails-c-i-have-a-error",
+      "title": "Everytime i try to run rails c i have a error"
+    },
+    {
+      "tags": [
+        "lua",
+        "roblox"
+      ],
+      "owner": {
+        "reputation": 11,
+        "user_id": 12876172,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/f32867405675dd6f0cb40606b0f69c30?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Amy",
+        "link": "https://stackoverflow.com/users/12876172/amy"
+      },
+      "is_answered": false,
+      "view_count": 31,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1581703243,
+      "creation_date": 1581393975,
+      "question_id": 60161876,
+      "link": "https://stackoverflow.com/questions/60161876/how-to-identify-the-killer-in-roblox-studio",
+      "title": "How to identify the killer in Roblox Studio"
+    },
+    {
+      "tags": [
+        "azure-devops",
+        "azure-pipelines"
+      ],
+      "owner": {
+        "reputation": 75,
+        "user_id": 11629998,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/--Pu0PWkAhy0/AAAAAAAAAAI/AAAAAAAAAlc/80eUA4Vhnfs/photo.jpg?sz=128",
+        "display_name": "Vignesh Arvind",
+        "link": "https://stackoverflow.com/users/11629998/vignesh-arvind"
+      },
+      "is_answered": true,
+      "view_count": 1555,
+      "answer_count": 1,
+      "score": 3,
+      "last_activity_date": 1581703240,
+      "creation_date": 1577234139,
+      "question_id": 59474379,
+      "link": "https://stackoverflow.com/questions/59474379/failed-to-use-net-sdk-agent-in-azure-devops-build-pipeline",
+      "title": "Failed to use .NET SDK agent in Azure DevOps Build Pipeline"
+    },
+    {
+      "tags": [
+        "jquery",
+        "html",
+        "css"
+      ],
+      "owner": {
+        "reputation": 5,
+        "user_id": 12097699,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/OaJXd.jpg?s=128&g=1",
+        "display_name": "M.Mayieko",
+        "link": "https://stackoverflow.com/users/12097699/m-mayieko"
+      },
+      "is_answered": true,
+      "view_count": 52,
+      "accepted_answer_id": 58040068,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1581703238,
+      "creation_date": 1569024745,
+      "question_id": 58036302,
+      "link": "https://stackoverflow.com/questions/58036302/why-i-cannot-make-my-side-navbar-to-appear-and-disappear",
+      "title": "Why i cannot make my side-navbar to appear and disappear"
+    },
+    {
+      "tags": [
+        "azure-devops",
+        "azure-devops-rest-api"
+      ],
+      "owner": {
+        "reputation": 612,
+        "user_id": 5734516,
+        "user_type": "registered",
+        "accept_rate": 70,
+        "profile_image": "https://www.gravatar.com/avatar/c54cc24f8bf8fab5c2f2cae738644d2b?s=128&d=identicon&r=PG&f=1",
+        "display_name": "webwake",
+        "link": "https://stackoverflow.com/users/5734516/webwake"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703236,
+      "creation_date": 1581703236,
+      "question_id": 60231390,
+      "link": "https://stackoverflow.com/questions/60231390/azuredevops-api-builds-list-api-returns-empty-json-results",
+      "title": "AzureDevops API builds list API returns empty json results"
+    },
+    {
+      "tags": [
+        "php",
+        "pdo"
+      ],
+      "owner": {
+        "reputation": 147,
+        "user_id": 1375567,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://i.stack.imgur.com/3fqUS.jpg?s=128&g=1",
+        "display_name": "Matthew Barraud",
+        "link": "https://stackoverflow.com/users/1375567/matthew-barraud"
+      },
+      "is_answered": false,
+      "view_count": 12,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703233,
+      "creation_date": 1581702119,
+      "last_edit_date": 1581703233,
+      "question_id": 60231152,
+      "link": "https://stackoverflow.com/questions/60231152/how-to-display-items-under-each-category-using-pdofetch-group",
+      "title": "How to display items under each category using PDO::FETCH_GROUP"
+    },
+    {
+      "tags": [
+        "python",
+        "matplotlib"
+      ],
+      "owner": {
+        "reputation": 245,
+        "user_id": 9682236,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/-SHbQdxPyduc/AAAAAAAAAAI/AAAAAAAAAII/mZRrgTh7xK4/photo.jpg?sz=128",
+        "display_name": "Mark McGown",
+        "link": "https://stackoverflow.com/users/9682236/mark-mcgown"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703230,
+      "creation_date": 1581701474,
+      "last_edit_date": 1581703230,
+      "question_id": 60231022,
+      "link": "https://stackoverflow.com/questions/60231022/how-to-rotate-axes-titles-in-matplotlib",
+      "title": "How to rotate axes titles in matplotlib?"
+    },
+    {
+      "tags": [
+        "youtube-api",
+        "youtube-data-api"
+      ],
+      "owner": {
+        "reputation": 11,
+        "user_id": 2689535,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/7c1aad1665b8e927e9f7976047f2a6e9?s=128&d=identicon&r=PG&f=1",
+        "display_name": "MitGuru",
+        "link": "https://stackoverflow.com/users/2689535/mitguru"
+      },
+      "is_answered": false,
+      "view_count": 1118,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1581703220,
+      "creation_date": 1551728498,
+      "last_edit_date": 1551729253,
+      "question_id": 54990432,
+      "link": "https://stackoverflow.com/questions/54990432/youtube-data-api-queries-quota-limit-auto-change-to-0",
+      "title": "YouTube Data API Queries quota limit auto change to 0"
+    },
+    {
+      "tags": [
+        "azure",
+        "azure-functions",
+        "azure-cosmosdb",
+        "azure-storage-blobs",
+        "azure-iot-hub"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12898157,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/71d3979997f13f2ded2e286e341d0850?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Emiliano Monti",
+        "link": "https://stackoverflow.com/users/12898157/emiliano-monti"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1581703220,
+      "creation_date": 1581680153,
+      "question_id": 60225559,
+      "link": "https://stackoverflow.com/questions/60225559/iot-device-recognition-on-connection-blob-storage-sends-a-configuration-file-as",
+      "title": "IoT device recognition on connection. Blob storage sends a configuration file as a response"
+    },
+    {
+      "tags": [
+        "datareader",
+        "executereader"
+      ],
+      "owner": {
+        "reputation": 1355,
+        "user_id": 140065,
+        "user_type": "registered",
+        "accept_rate": 81,
+        "profile_image": "https://www.gravatar.com/avatar/e521b43fb0fc5b32d439335cd79c4101?s=128&d=identicon&r=PG",
+        "display_name": "ClareBear",
+        "link": "https://stackoverflow.com/users/140065/clarebear"
+      },
+      "is_answered": true,
+      "view_count": 19757,
+      "accepted_answer_id": 3469433,
+      "answer_count": 5,
+      "score": 1,
+      "last_activity_date": 1581703218,
+      "creation_date": 1281597407,
+      "question_id": 3465490,
+      "link": "https://stackoverflow.com/questions/3465490/invalid-attempt-to-call-fieldcount-when-reader-is-closed",
+      "title": "Invalid attempt to call FieldCount when reader is closed"
+    },
+    {
+      "tags": [
+        "php",
+        "mysql",
+        "authentication"
+      ],
+      "owner": {
+        "reputation": 4746,
+        "user_id": 242839,
+        "user_type": "registered",
+        "accept_rate": 70,
+        "profile_image": "https://i.stack.imgur.com/MxdJD.png?s=128&g=1",
+        "display_name": "Jorge",
+        "link": "https://stackoverflow.com/users/242839/jorge"
+      },
+      "is_answered": true,
+      "view_count": 44819,
+      "accepted_answer_id": 3084526,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1581703214,
+      "creation_date": 1277122348,
+      "last_edit_date": 1581703214,
+      "question_id": 3084481,
+      "link": "https://stackoverflow.com/questions/3084481/php-login-and-get-user-information",
+      "title": "PHP login and get user information"
+    },
+    {
+      "tags": [
+        "visual-studio-code",
+        "clion",
+        "jetbrains-ide"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12561060,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/b0ef7351547c5e3cdee54966897c2dcc?s=128&d=identicon&r=PG&f=1",
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/12561060/john"
+      },
+      "is_answered": false,
+      "view_count": 20,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1581703211,
+      "creation_date": 1581116771,
+      "last_edit_date": 1581157835,
+      "question_id": 60122278,
+      "link": "https://stackoverflow.com/questions/60122278/how-to-export-visual-studio-code-color-scheme-to-jetbrains-ides-for-example-cl",
+      "title": "How to export Visual Studio Code Color Scheme to JetBrains IDEs (for example, CLion)?"
+    },
+    {
+      "tags": [
+        "listview",
+        "xamarin",
+        "akavache"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 3871197,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/98d1a1be00d9c9341e5fcf5ad9d9f886?s=128&d=identicon&r=PG&f=1",
+        "display_name": "user3871197",
+        "link": "https://stackoverflow.com/users/3871197/user3871197"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1581703205,
+      "creation_date": 1581610782,
+      "last_edit_date": 1581625733,
+      "question_id": 60212339,
+      "link": "https://stackoverflow.com/questions/60212339/problem-of-xamarin-form-listview-not-refresh-if-binding-from-akavache-cache",
+      "title": "Problem of Xamarin.Form (ListView not refresh if binding from Akavache cache)"
+    },
+    {
+      "tags": [
+        "javascript"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12899963,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mASirMpFdR4-0mdTKAbxFEOqbG7ZDj4Y66PY1cJAg=k-s128",
+        "display_name": "miljan radulovic",
+        "link": "https://stackoverflow.com/users/12899963/miljan-radulovic"
+      },
+      "is_answered": false,
+      "view_count": 11,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703204,
+      "creation_date": 1581702501,
+      "last_edit_date": 1581703204,
+      "question_id": 60231236,
+      "link": "https://stackoverflow.com/questions/60231236/how-to-toggle-divs-on-and-of-on-a-daily-basis",
+      "title": "How to toggle div&#39;s on and of on a daily basis?"
+    },
+    {
+      "tags": [
+        "python",
+        "jupyter"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 12899892,
+        "user_type": "registered",
+        "profile_image": "https://lh4.googleusercontent.com/-JjP4SLiSZeA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdDE95qBETb3oXXncX2FNckNqqsZA/photo.jpg?sz=128",
+        "display_name": "Lukas Birkner",
+        "link": "https://stackoverflow.com/users/12899892/lukas-birkner"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1581703194,
+      "creation_date": 1581703194,
+      "question_id": 60231385,
+      "link": "https://stackoverflow.com/questions/60231385/error-on-jupyter-when-trying-to-make-a-request",
+      "title": "Error on jupyter when trying to make a request"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9995
+}
