@@ -8,5 +8,7 @@ Installation
 > To run this application, follow the below steps:
 
 Application should run in simulator without issues
+
 To run on device:
+
 Change bundle Identifier to that of your system.
