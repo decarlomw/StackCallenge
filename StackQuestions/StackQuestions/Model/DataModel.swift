@@ -22,14 +22,14 @@ struct Owner: Decodable {
 }
 
 struct Question: Decodable {
-    var title: String
-    var link: URL
-    var isAnswered: Bool
-    var viewCount: Int
+    var title: String?
+    var link: URL?
+    var isAnswered: Bool?
+    var viewCount: Int?
     var answerCount: Int
     var accepted_answer_id: Int?
-    var lastActivityDate: Double
-    var creationDate: Double
+    var lastActivityDate: Double?
+    var creationDate: Double?
     var lastEditDate: Double?
     var tags: [String]
     var owner: Owner
@@ -55,5 +55,6 @@ struct Response: Decodable {
     var items: [Question]
 
 }
+
 
 
