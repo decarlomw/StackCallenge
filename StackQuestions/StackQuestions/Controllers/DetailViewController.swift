@@ -11,7 +11,7 @@ import WebKit
 
 class DetailViewController: UIViewController {
     
-    /// Setting default URL incase url doesn't come from view controller
+    // Setting default URL incase url doesn't come from view controller
     var link = URL(string : "https://www.stackoverflow.com")
     
     @IBOutlet var webView: WKWebView!
@@ -108,5 +108,11 @@ class DetailViewController: UIViewController {
                                //  - set to `false` in case animation was interrupted, e.g. due to starting of another animation.
                                self.progressView.isHidden = isFinished
             })
+        }
+        
+        // Did this because progressView was displaying at time as the page didn't fully load
+        override func viewDidDisappear(_ animated: Bool) {
+            super.viewDidDisappear(true)
+            self.progressView.isHidden = true
         }
     }

@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
+    var tableView: UITableView!
     var questionResult = [Question]()
+    var refreshControl = UIRefreshControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +28,37 @@ class ViewController: UIViewController, UITableViewDelegate {
         titleView.backgroundColor = .clear
         self.navigationItem.titleView = titleView
         
-        // Adding Delegate for tableView
-        self.configureTable()
-
+       
+        self.loadJsonFromURL()
+        // self.LoadJSONFromFile()
+        
+        self.refreshControl.addTarget(self, action:  #selector(self.refreshData), for: .valueChanged)
+        
+       
     }
+    
     
     //MARK: ConfigureTable
     func configureTable() {
-        // setting delegate and datasource for tableview
+        // creating table and setting delegate and datasource for tableview
+        self.tableView = UITableView(frame:self.view.frame)
+        self.view.addSubview(self.tableView)
+        
+        // setting contraints fot autolayout
+        self.tableView.translatesAutoresizingMaskIntoConstraints = false
+        self.tableView.topAnchor.constraint(equalTo:view.topAnchor).isActive = true
+        self.tableView.leftAnchor.constraint(equalTo:view.leftAnchor).isActive = true
+        self.tableView.rightAnchor.constraint(equalTo:view.rightAnchor).isActive = true
+        self.tableView.bottomAnchor.constraint(equalTo:view.bottomAnchor).isActive = true
+        
+        
+        // Add Refresh Control to Table View
+               if #available(iOS 10.0, *) {
+                   tableView.refreshControl = refreshControl
+               } else {
+                   tableView.addSubview(refreshControl)
+               }
+        
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
@@ -42,12 +66,53 @@ class ViewController: UIViewController, UITableViewDelegate {
         let nib = UINib(nibName: QuestionTableViewCell.ID, bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: QuestionTableViewCell.ID)
         
-        self.loadJson()
-        self.tableView.reloadData()
+    }
+    
+    //MARK: Refresh Data
+    @objc func refreshData(){
+        NetworkManager.fetchQuestions { (data) in
+                   DispatchQueue.main.async {
+                       self.questionResult = data as! [Question]
+                       self.questionResult = self.questionResult.filter {
+                           $0.answerCount > 1 &&  $0.accepted_answer_id != nil
+                                            }
+                       if (self.questionResult.isEmpty){
+                        self.showAlert(message: "There are no questions with Answers return currently through API")
+                       }else {
+                       self.refreshControl.endRefreshing()
+                       self.tableView.reloadData()
+                           
+                       }
+                   }
+        }
+    }
+    
+    //MARK: LoadJSONFromURL
+     func loadJsonFromURL() {
+        NetworkManager.fetchQuestions { (data) in
+            DispatchQueue.main.async {
+                //checking to validate if data came back this is mainly for network connectivity
+                guard data is [Question] else {
+                    self.showAlert(message: "Unable to access Network")
+                    return
+                }
+                self.questionResult = data as! [Question]
+                self.questionResult = self.questionResult.filter {
+                    $0.answerCount > 1 &&  $0.accepted_answer_id != nil
+                                     }
+                if (self.questionResult.isEmpty){
+                    self.showAlert(message: "There are no questions with Answers return currently through API")
+                }else {
+                self.configureTable()
+                self.tableView.reloadData()
+                    
+                }
+            }
+        }
     }
     
     //MARK: LoadJSONFromFile
-    func loadJson() {
+    func LoadJSONFromFile() {
         
         if let path = Bundle.main.path(forResource: "questions", ofType: "json") {
             do {
@@ -62,6 +127,18 @@ class ViewController: UIViewController, UITableViewDelegate {
             }
         }
     }
+    
+    func showAlert(message: String) {
+
+           // create the alert
+           let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
+
+           // add an action (button)
+           alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+           // show the alert
+           self.present(alert, animated: true, completion: nil)
+       }
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
